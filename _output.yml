@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  includes:
+  split_by: section+number
+  css: style.css
+  config:
+    highlight: pigments
+    toc:
+      before: |
+        <li><a>Stock signals</a></li>
+      after: |
+        <li><img src="images/MoraLab.png" width="270"></li>

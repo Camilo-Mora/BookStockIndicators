@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Awesome oscillator (AO) | StockIndicators.knit</title>
+  <meta name="description" content="Introduction to trading indicators" />
+  <meta name="generator" content="bookdown 0.22.4 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Awesome oscillator (AO) | StockIndicators.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Introduction to trading indicators" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Awesome oscillator (AO) | StockIndicators.knit" />
+  
+  <meta name="twitter:description" content="Introduction to trading indicators" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="relative-strenght-index-rsi-1.html"/>
+<link rel="next" href="money-flow-index-mfi.html"/>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a>Stock signals</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="scale-of-months-or-years.html"><a href="scale-of-months-or-years.html"><i class="fa fa-check"></i>Scale of months or years</a></li>
+<li class="chapter" data-level="" data-path="short-term.html"><a href="short-term.html"><i class="fa fa-check"></i>Short term</a></li>
+<li class="chapter" data-level="" data-path="intra-day-variation.html"><a href="intra-day-variation.html"><i class="fa fa-check"></i>Intra-day variation</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="1-placing-orders.html"><a href="1-placing-orders.html"><i class="fa fa-check"></i><b>1</b> Placing orders</a>
+<ul>
+<li class="chapter" data-level="" data-path="short-sale.html"><a href="short-sale.html"><i class="fa fa-check"></i>Short sale</a></li>
+<li class="chapter" data-level="" data-path="long-sale.html"><a href="long-sale.html"><i class="fa fa-check"></i>Long sale</a></li>
+<li class="chapter" data-level="" data-path="bid-and-ask-price.html"><a href="bid-and-ask-price.html"><i class="fa fa-check"></i>Bid and ask price</a></li>
+<li class="chapter" data-level="" data-path="market-order-and-limit-order.html"><a href="market-order-and-limit-order.html"><i class="fa fa-check"></i>Market order and limit order</a>
+<ul>
+<li class="chapter" data-level="" data-path="market-order-and-limit-order.html"><a href="market-order-and-limit-order.html#timeframe-for-limit-order"><i class="fa fa-check"></i>Timeframe for limit order</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="buy-limit-order.html"><a href="buy-limit-order.html"><i class="fa fa-check"></i>Buy Limit order</a></li>
+<li class="chapter" data-level="" data-path="buy-stop-order.html"><a href="buy-stop-order.html"><i class="fa fa-check"></i>Buy Stop order</a></li>
+<li class="chapter" data-level="" data-path="buy-stop-limit-order.html"><a href="buy-stop-limit-order.html"><i class="fa fa-check"></i>Buy Stop Limit order</a></li>
+<li class="chapter" data-level="" data-path="sell-limit-order.html"><a href="sell-limit-order.html"><i class="fa fa-check"></i>Sell Limit order</a></li>
+<li class="chapter" data-level="" data-path="sell-stop-order.html"><a href="sell-stop-order.html"><i class="fa fa-check"></i>Sell Stop order</a></li>
+<li class="chapter" data-level="" data-path="sell-stop-limit-order.html"><a href="sell-stop-limit-order.html"><i class="fa fa-check"></i>Sell Stop Limit order</a></li>
+<li class="chapter" data-level="" data-path="stops-and-limits.html"><a href="stops-and-limits.html"><i class="fa fa-check"></i>Stops and Limits</a></li>
+<li class="chapter" data-level="" data-path="stop-loss.html"><a href="stop-loss.html"><i class="fa fa-check"></i>Stop loss</a></li>
+<li class="chapter" data-level="" data-path="profit-taker.html"><a href="profit-taker.html"><i class="fa fa-check"></i>Profit taker</a></li>
+<li class="chapter" data-level="" data-path="risk-to-profit.html"><a href="risk-to-profit.html"><i class="fa fa-check"></i>Risk to profit</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-interpreting-the-short-term-market.html"><a href="2-interpreting-the-short-term-market.html"><i class="fa fa-check"></i><b>2</b> Interpreting the short term market</a>
+<ul>
+<li class="chapter" data-level="" data-path="candlesticks.html"><a href="candlesticks.html"><i class="fa fa-check"></i>Candlesticks</a></li>
+<li class="chapter" data-level="" data-path="resistance-and-support.html"><a href="resistance-and-support.html"><i class="fa fa-check"></i>Resistance and support</a></li>
+<li class="chapter" data-level="" data-path="swings.html"><a href="swings.html"><i class="fa fa-check"></i>Swings</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-chart-patterns.html"><a href="3-chart-patterns.html"><i class="fa fa-check"></i><b>3</b> Chart patterns</a>
+<ul>
+<li class="chapter" data-level="" data-path="channels.html"><a href="channels.html"><i class="fa fa-check"></i>Channels</a>
+<ul>
+<li class="chapter" data-level="" data-path="channels.html"><a href="channels.html#upward-channels"><i class="fa fa-check"></i>Upward Channels</a></li>
+<li class="chapter" data-level="" data-path="channels.html"><a href="channels.html#downward-channels"><i class="fa fa-check"></i>Downward Channels</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html"><i class="fa fa-check"></i>Multi Tops or Bottoms</a>
+<ul>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html#double-tops"><i class="fa fa-check"></i>Double Tops</a></li>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html#double-bottoms"><i class="fa fa-check"></i>Double bottoms</a></li>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html#triple-bottoms"><i class="fa fa-check"></i>Triple bottoms</a></li>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html#triple-tops"><i class="fa fa-check"></i>Triple tops</a></li>
+<li class="chapter" data-level="" data-path="multi-tops-or-bottoms.html"><a href="multi-tops-or-bottoms.html#rectangles"><i class="fa fa-check"></i>Rectangles</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="head-and-shoulders-pattern.html"><a href="head-and-shoulders-pattern.html"><i class="fa fa-check"></i>Head and shoulders pattern</a></li>
+<li class="chapter" data-level="" data-path="triangles.html"><a href="triangles.html"><i class="fa fa-check"></i>Triangles</a>
+<ul>
+<li class="chapter" data-level="" data-path="triangles.html"><a href="triangles.html#ascending-triangle"><i class="fa fa-check"></i>Ascending triangle</a></li>
+<li class="chapter" data-level="" data-path="triangles.html"><a href="triangles.html#descending-triangle"><i class="fa fa-check"></i>Descending triangle</a></li>
+<li class="chapter" data-level="" data-path="triangles.html"><a href="triangles.html#symmetrical-triangles"><i class="fa fa-check"></i>Symmetrical triangles</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="broadening-pattern.html"><a href="broadening-pattern.html"><i class="fa fa-check"></i>Broadening pattern</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-candlestick-patterns.html"><a href="4-candlestick-patterns.html"><i class="fa fa-check"></i><b>4</b> Candlestick patterns</a>
+<ul>
+<li class="chapter" data-level="" data-path="three-line-strike.html"><a href="three-line-strike.html"><i class="fa fa-check"></i>Three Line Strike</a>
+<ul>
+<li class="chapter" data-level="" data-path="three-line-strike.html"><a href="three-line-strike.html#bullish-three-line-strike"><i class="fa fa-check"></i>Bullish three line strike</a></li>
+<li class="chapter" data-level="" data-path="three-line-strike.html"><a href="three-line-strike.html#bearish-three-line-strike"><i class="fa fa-check"></i>Bearish three line strike</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="soldiers-and-crows.html"><a href="soldiers-and-crows.html"><i class="fa fa-check"></i>Soldiers and crows</a>
+<ul>
+<li class="chapter" data-level="" data-path="soldiers-and-crows.html"><a href="soldiers-and-crows.html#three-white-soldiers"><i class="fa fa-check"></i>Three white soldiers</a></li>
+<li class="chapter" data-level="" data-path="soldiers-and-crows.html"><a href="soldiers-and-crows.html#three-black-crows"><i class="fa fa-check"></i>Three Black Crows</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="two-black-gapping.html"><a href="two-black-gapping.html"><i class="fa fa-check"></i>Two black gapping</a></li>
+<li class="chapter" data-level="" data-path="evening-and-morning-star.html"><a href="evening-and-morning-star.html"><i class="fa fa-check"></i>Evening and morning star</a></li>
+<li class="chapter" data-level="" data-path="abandoned-baby.html"><a href="abandoned-baby.html"><i class="fa fa-check"></i>Abandoned Baby</a>
+<ul>
+<li class="chapter" data-level="" data-path="abandoned-baby.html"><a href="abandoned-baby.html#bullish-abandoned-baby"><i class="fa fa-check"></i>Bullish abandoned Baby</a></li>
+<li class="chapter" data-level="" data-path="abandoned-baby.html"><a href="abandoned-baby.html#bearish-abandoned-baby"><i class="fa fa-check"></i>Bearish abandoned Baby</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="engulfing.html"><a href="engulfing.html"><i class="fa fa-check"></i>Engulfing</a>
+<ul>
+<li class="chapter" data-level="" data-path="engulfing.html"><a href="engulfing.html#bearish-engulfing"><i class="fa fa-check"></i>Bearish engulfing</a></li>
+<li class="chapter" data-level="" data-path="engulfing.html"><a href="engulfing.html#bullish-engulfing"><i class="fa fa-check"></i>Bullish engulfing</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="the-hammer-the-start-and-hanging-man.html"><a href="the-hammer-the-start-and-hanging-man.html"><i class="fa fa-check"></i>The hammer, the start and hanging man</a>
+<ul>
+<li class="chapter" data-level="" data-path="the-hammer-the-start-and-hanging-man.html"><a href="the-hammer-the-start-and-hanging-man.html#the-hammer"><i class="fa fa-check"></i>The hammer</a></li>
+<li class="chapter" data-level="" data-path="the-hammer-the-start-and-hanging-man.html"><a href="the-hammer-the-start-and-hanging-man.html#the-inverted-hammer"><i class="fa fa-check"></i>The Inverted hammer</a></li>
+<li class="chapter" data-level="" data-path="the-hammer-the-start-and-hanging-man.html"><a href="the-hammer-the-start-and-hanging-man.html#shooting-start"><i class="fa fa-check"></i>Shooting start</a></li>
+<li class="chapter" data-level="" data-path="the-hammer-the-start-and-hanging-man.html"><a href="the-hammer-the-start-and-hanging-man.html#the-hanging-man"><i class="fa fa-check"></i>The hanging man</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="dark-cloud-cover.html"><a href="dark-cloud-cover.html"><i class="fa fa-check"></i>Dark cloud cover</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-fundamentals.html"><a href="5-fundamentals.html"><i class="fa fa-check"></i><b>5</b> Fundamentals</a>
+<ul>
+<li class="chapter" data-level="" data-path="earning-per-share-ratio-eps.html"><a href="earning-per-share-ratio-eps.html"><i class="fa fa-check"></i>Earning per Share ratio (EPS)</a></li>
+<li class="chapter" data-level="" data-path="price-to-earning-pe.html"><a href="price-to-earning-pe.html"><i class="fa fa-check"></i>Price to Earning (P/E)</a></li>
+<li class="chapter" data-level="" data-path="price-to-earning-growth-ratio-peg.html"><a href="price-to-earning-growth-ratio-peg.html"><i class="fa fa-check"></i>Price to Earning Growth ratio (PEG)</a></li>
+<li class="chapter" data-level="" data-path="book-value.html"><a href="book-value.html"><i class="fa fa-check"></i>Book value</a>
+<ul>
+<li class="chapter" data-level="" data-path="book-value.html"><a href="book-value.html#book-value-per-share-bvps"><i class="fa fa-check"></i>Book value per share (BVPS)</a></li>
+<li class="chapter" data-level="" data-path="book-value.html"><a href="book-value.html#price-to-book-pb-ratio"><i class="fa fa-check"></i>Price-To-Book (P/B Ratio)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="debt-to-equity-ratio.html"><a href="debt-to-equity-ratio.html"><i class="fa fa-check"></i>Debt-to-equity Ratio</a></li>
+<li class="chapter" data-level="" data-path="wacc-vs-roic-ratio.html"><a href="wacc-vs-roic-ratio.html"><i class="fa fa-check"></i>WACC vs ROIC Ratio</a></li>
+<li class="chapter" data-level="" data-path="implied-volatility-iv-and-historical-volatility-hv.html"><a href="implied-volatility-iv-and-historical-volatility-hv.html"><i class="fa fa-check"></i>Implied Volatility (IV) and Historical Volatility (HV)</a></li>
+<li class="chapter" data-level="" data-path="short-interest.html"><a href="short-interest.html"><i class="fa fa-check"></i>Short Interest</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-technical-indicators.html"><a href="6-technical-indicators.html"><i class="fa fa-check"></i><b>6</b> Technical indicators</a></li>
+<li class="chapter" data-level="7" data-path="7-price-indicators.html"><a href="7-price-indicators.html"><i class="fa fa-check"></i><b>7</b> Price Indicators</a>
+<ul>
+<li class="chapter" data-level="" data-path="relative-strenght-index-rsi.html"><a href="relative-strenght-index-rsi.html"><i class="fa fa-check"></i>Relative Strenght Index (RSI)</a></li>
+<li class="chapter" data-level="" data-path="moving-average-ma.html"><a href="moving-average-ma.html"><i class="fa fa-check"></i>Moving Average (MA)</a></li>
+<li class="chapter" data-level="" data-path="moving-average-convergence-divergence-macd.html"><a href="moving-average-convergence-divergence-macd.html"><i class="fa fa-check"></i>Moving Average Convergence Divergence (MACD)</a>
+<ul>
+<li class="chapter" data-level="" data-path="moving-average-convergence-divergence-macd.html"><a href="moving-average-convergence-divergence-macd.html#crossovers"><i class="fa fa-check"></i>Crossovers</a></li>
+<li class="chapter" data-level="" data-path="moving-average-convergence-divergence-macd.html"><a href="moving-average-convergence-divergence-macd.html#divergence"><i class="fa fa-check"></i>Divergence</a></li>
+<li class="chapter" data-level="" data-path="moving-average-convergence-divergence-macd.html"><a href="moving-average-convergence-divergence-macd.html#rapid-rises-or-falls"><i class="fa fa-check"></i>Rapid Rises or Falls</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao.html"><a href="awesome-oscillator-ao.html"><i class="fa fa-check"></i>Awesome oscillator (AO)</a>
+<ul>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao.html"><a href="awesome-oscillator-ao.html#ao-twing-peaks"><i class="fa fa-check"></i>AO twing peaks</a></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao.html"><a href="awesome-oscillator-ao.html#ao-crossing-zero"><i class="fa fa-check"></i>AO crossing zero</a></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao.html"><a href="awesome-oscillator-ao.html#ao-saucer"><i class="fa fa-check"></i>AO Saucer</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="macd-and-awesome-oscillator.html"><a href="macd-and-awesome-oscillator.html"><i class="fa fa-check"></i>MACD and Awesome oscillator</a></li>
+<li class="chapter" data-level="" data-path="average-true-range-indicator-atr.html"><a href="average-true-range-indicator-atr.html"><i class="fa fa-check"></i>Average true range indicator (ATR)</a></li>
+<li class="chapter" data-level="" data-path="ehlers-correlation-trend-indicator-cti.html"><a href="ehlers-correlation-trend-indicator-cti.html"><i class="fa fa-check"></i>Ehler’s Correlation Trend Indicator (CTI)</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-momentum.html"><a href="8-momentum.html"><i class="fa fa-check"></i><b>8</b> Momentum</a>
+<ul>
+<li class="chapter" data-level="" data-path="relative-strenght-index-rsi-1.html"><a href="relative-strenght-index-rsi-1.html"><i class="fa fa-check"></i>Relative Strenght Index (RSI)</a></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao-1.html"><a href="awesome-oscillator-ao-1.html"><i class="fa fa-check"></i>Awesome oscillator (AO)</a>
+<ul>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao-1.html"><a href="awesome-oscillator-ao-1.html#ao-twing-peaks-1"><i class="fa fa-check"></i>AO twing peaks</a></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao-1.html"><a href="awesome-oscillator-ao-1.html#ao-crossing-zero-1"><i class="fa fa-check"></i>AO crossing zero</a></li>
+<li class="chapter" data-level="" data-path="awesome-oscillator-ao-1.html"><a href="awesome-oscillator-ao-1.html#ao-saucer-1"><i class="fa fa-check"></i>AO Saucer</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="money-flow-index-mfi.html"><a href="money-flow-index-mfi.html"><i class="fa fa-check"></i>Money Flow Index (MFI)</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv.html"><a href="on-balance-volume-obv.html"><i class="fa fa-check"></i>On balance volume (OBV)</a>
+<ul>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv.html"><a href="on-balance-volume-obv.html#obv-divergence"><i class="fa fa-check"></i>OBV divergence</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv.html"><a href="on-balance-volume-obv.html#obv-trend-confirmation"><i class="fa fa-check"></i>OBV trend confirmation</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv.html"><a href="on-balance-volume-obv.html#obv-crossover"><i class="fa fa-check"></i>OBV Crossover</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="chaikin-accumulation-distribution.html"><a href="chaikin-accumulation-distribution.html"><i class="fa fa-check"></i>Chaikin Accumulation Distribution</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="9-volume-indicators.html"><a href="9-volume-indicators.html"><i class="fa fa-check"></i><b>9</b> Volume Indicators</a>
+<ul>
+<li class="chapter" data-level="" data-path="money-flow-index-mfi-1.html"><a href="money-flow-index-mfi-1.html"><i class="fa fa-check"></i>Money Flow Index (MFI)</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-1.html"><a href="on-balance-volume-obv-1.html"><i class="fa fa-check"></i>On balance volume (OBV)</a>
+<ul>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-1.html"><a href="on-balance-volume-obv-1.html#obv-divergence-1"><i class="fa fa-check"></i>OBV divergence</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-1.html"><a href="on-balance-volume-obv-1.html#obv-trend-confirmation-1"><i class="fa fa-check"></i>OBV trend confirmation</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-1.html"><a href="on-balance-volume-obv-1.html#obv-crossover-1"><i class="fa fa-check"></i>OBV Crossover</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="chaikin-accumulation-distribution-1.html"><a href="chaikin-accumulation-distribution-1.html"><i class="fa fa-check"></i>Chaikin Accumulation Distribution</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-volume-indicators-1.html"><a href="10-volume-indicators-1.html"><i class="fa fa-check"></i><b>10</b> Volume Indicators</a>
+<ul>
+<li class="chapter" data-level="" data-path="money-flow-index-mfi-2.html"><a href="money-flow-index-mfi-2.html"><i class="fa fa-check"></i>Money Flow Index (MFI)</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-2.html"><a href="on-balance-volume-obv-2.html"><i class="fa fa-check"></i>On balance volume (OBV)</a>
+<ul>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-2.html"><a href="on-balance-volume-obv-2.html#obv-divergence-2"><i class="fa fa-check"></i>OBV divergence</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-2.html"><a href="on-balance-volume-obv-2.html#obv-trend-confirmation-2"><i class="fa fa-check"></i>OBV trend confirmation</a></li>
+<li class="chapter" data-level="" data-path="on-balance-volume-obv-2.html"><a href="on-balance-volume-obv-2.html#obv-crossover-2"><i class="fa fa-check"></i>OBV Crossover</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="chaikin-accumulation-distribution-2.html"><a href="chaikin-accumulation-distribution-2.html"><i class="fa fa-check"></i>Chaikin Accumulation Distribution</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="11-combinations.html"><a href="11-combinations.html"><i class="fa fa-check"></i><b>11</b> Combinations</a>
+<ul>
+<li class="chapter" data-level="" data-path="macd-and-awesome-oscillator-1.html"><a href="macd-and-awesome-oscillator-1.html"><i class="fa fa-check"></i>MACD and Awesome oscillator</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><img src="images/MoraLab.png" width="270"></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><h1 style="font-size:17px">
+Basic trading indicators
+</h1></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="awesome-oscillator-ao-1" class="section level2 unnumbered">
+<h2>Awesome oscillator (AO)</h2>
+<p>The Awesome Oscillator is used to measure trend momentum and to affirm trends or to anticipate possible reversals.</p>
+<p>To calculate this index,</p>
+<ol style="list-style-type: decimal">
+<li>For each time period, calculate the median price [(high + low)/2]</li>
+<li>Calculate a 5-period EMA.</li>
+<li>Calculate a 34-period EMA .</li>
+<li>Subtract the 5-period EMA from the 34-period EMA. This is called the Awesome Oscillator</li>
+</ol>
+<div id="ao-twing-peaks-1" class="section level3 unnumbered">
+<h3>AO twing peaks</h3>
+<p>Here the AO is used when two consecutive high peaks appears in the AO, with the later being lower than the former. This suggest that the trend is slowing down, coming to an end, and reversing (i.e., the lower second peak). This signal is used to short the stock.</p>
+<p>In the opposite two low through, with the second being higher, signals a slow down of a downwards trend, and a likely reversal, and signal to buy.</p>
+<p>See examples below.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="images/AOTP.png" alt="AO twing peaks" width="100%" />
+<p class="caption">
+Figure 8.3: AO twing peaks
+</p>
+</div>
+</div>
+<div id="ao-crossing-zero-1" class="section level3 unnumbered">
+<h3>AO crossing zero</h3>
+<p>When AO crosses, moves, above zero, it indicates an upward trends, and a signal to buy. When AO crosses below zero indicates a bear trend, and a signal to sell.</p>
+<p>The problem with this strategy is that most common than not, it takes the trends halfway through.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="images/AOTP2.png" alt="AO crossing zero" width="100%" />
+<p class="caption">
+Figure 8.4: AO crossing zero
+</p>
+</div>
+</div>
+<div id="ao-saucer-1" class="section level3 unnumbered">
+<h3>AO Saucer</h3>
+<p>In this strategy, it is suggested to enter a buy trade after a reversal in AO, while AO is above zero. Basically, the bulls are winning, but the bears are fighting back. The reversal, indicates advance by the bulls, and one can capitalize in the expected uptrend.</p>
+<p>In the opposite, a sell signal is indicated when AO is below zero, and there is a lower reversal in AO.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="images/Saucer.png" alt="AO Saucer" width="100%" />
+<p class="caption">
+Figure 8.5: AO Saucer
+</p>
+</div>
+<p>Volume Indicators {}</p>
+<p>Volume is the number of shares traded at a given point in time.</p>
+<p>Volume by itself, can at times provide signals of price movement. For instance, you see a peak in price but volume is going down. Basically, there is not motivation in the stock. You can expect prices to fall (see image below)</p>
+<p>If you see a major spike in volume, that means the stock will be moving, and could mark the start of a trend.</p>
+<p>You should think of volume as the fuel or treasures that runs the battles by the longers and shorters.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="images/Volume%20Signals.png" alt="Volume " width="100%" />
+<p class="caption">
+Figure 8.6: Volume
+</p>
+</div>
+<p>There is a set of indicators that provide important signals as the relate to volume…lets check some of them.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="relative-strenght-index-rsi-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="money-flow-index-mfi.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "lunr",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+},
+"highlight": "pigments"
+});
+});
+</script>
+
+</body>
+
+</html>

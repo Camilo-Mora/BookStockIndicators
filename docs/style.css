@@ -1,0 +1,84 @@
+.mjx-chtml.MJXc-display{
+  padding: 20px 0;
+}
+
+
+iframe{
+margin-bottom: 50px;
+}
+
+.sourceCode{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  padding-bottom: 10px;
+  }
+
+
+p code {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  white-space: inherit;
+}
+pre {
+  margin-bottom: 100px;
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+
+
+
+p caption {
+  color: #777;
+  margin-top: 50px;
+}
+
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdexercise {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+.rmdcaution {
+  background-image: url("images/caution.png");
+}
+.rmdimportant {
+  background-image: url("images/important.png");
+}
+.rmdnote {
+  background-image: url("images/note.png");
+}
+.rmdtip {
+  background-image: url("images/tip.png");
+}
+.rmdwarning {
+  background-image: url("images/warning.png");
+}
+
+.rmdexercise {
+  background-image: url("images/exercise.png");
+}
+
+
+.figure {
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.table {
+    padding: 10px 20px 15px 50px;
+}
+
+
