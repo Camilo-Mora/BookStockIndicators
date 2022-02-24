@@ -1,0 +1,6 @@
+# Cautions {}
+
+## Check slower trend {-}
+Any time when making a short term entry, it is recommended to look at the mid- and long-term trend to avoid making trades against the direction of the intermediate trend [1].
+
+1. [Murphy, John (1999). Technical Analysis of the Financial Markets. Prentice Hall Press. pp. 252–255. ISBN 0-7352-0066-1] 

@@ -303,3 +303,4 @@ volatility
 volume-indicators
 new-indicators
 combinations
+cautions
