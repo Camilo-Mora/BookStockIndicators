@@ -141,7 +141,8 @@ knitr::include_graphics("images/hv.png")
 ```
 
 ## 110 Holt Winter Channel {-}
-A three-parameter moving average calculated by the method of Holt-Winters.
+A three-parameter moving average calculated by the method of Holt-Winters, and it add a percent change of Price.
+
     
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Holt Winter Channel '}
 knitr::include_graphics("images/Holt.png")
