@@ -1,6 +1,6 @@
 # BookStockIndicators
  
-Stock data analytics: 
- <a href="https://www.w3schools.com">Visit W3Schools.com!</a> 
+Stock analysis data: 
+ <a href= "https://camilo-mora.github.io/BookStockIndicators/index.html">Quantitative trading</a> 
 
-https://camilo-mora.github.io/BookStockIndicators/index.html
+
