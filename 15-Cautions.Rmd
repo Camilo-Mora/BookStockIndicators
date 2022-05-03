@@ -12,7 +12,7 @@ With that said, in 2021, the S&P rose 10% between the start of May and the end o
 
 This, however, speaks to potential timing effects on stock price. They clearly exists within a day, and week, and according to this idea, year.
 
-##  Wall of worry {-}
+## Wall of worry {-}
 This idea suggest that there is always a pull back from a large drop (like a market crash). Markets often rally in troubling times, partly because investors are looking ahead to a rosier future when all those fears diminish.
 
 ## Disposition effect{-}

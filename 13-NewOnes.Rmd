@@ -129,7 +129,7 @@ knitr::include_graphics("images/SP500Removed.png")
 
 Additional [info](https://www.smartkarma.com/insights/s-p500-rebalance-for-december-2021-rearranging-the-deckchairs)
 
-## 146  Hedge Fund copycat {-}
+## 146 Hedge Fund copycat {-}
 Hedge Funds are organizations, where people can place their money to be invested at the discretion of the experts working the given Hedge Fund. Some of these organizations have access to lots of money to acquire data available, have the best information and manpower to take advantage of inefficiencies in the markets, or make wise (sane) long term investments.
 
 By law, every three months, they have to release the list of stocks they have invested on. Using this list as reference for investment have shown considerably high profits that investing in the S&P500 alone.
