@@ -288,6 +288,7 @@ fig:unnamed-chunk-294
 fig:unnamed-chunk-295
 fig:unnamed-chunk-296
 fig:unnamed-chunk-297
+fig:unnamed-chunk-298
 placing-orders
 placing-a-order-in-ibroker
 interpreting-the-short-term-market
