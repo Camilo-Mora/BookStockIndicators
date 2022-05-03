@@ -24,6 +24,6 @@ The blunder of selling winners too soon and holding losers too long is known as 
 
 ## Correlation effect{-}
 Diversification is commonly seen as a way to avert risk; like do not put all your eggs in a single basket.
-At times, however, different stocks can be related to each for numerous reasons, and thus, in such cases, you may not have as many independence investments as you may think, and all may be associated with the same risk. As such it is recommended, to check for collinearities among stock price of invested stocks to avoid such risk. It should be noted, however, that correlation between pairs of stock can at time be used as a trading strategy.
+At times, however, different stocks can be related to each for numerous reasons, and thus, in such cases, you may not have as many independence investments as you may think, and all may be associated with the same risk. As such it is recommended, to check for collinearities among stock price of invested stocks to avoid such a risk. It should be noted, however, that correlation between pairs of stock can at time be used as a trading strategy.
 
 
