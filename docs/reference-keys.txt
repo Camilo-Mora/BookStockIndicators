@@ -289,8 +289,8 @@ fig:unnamed-chunk-295
 fig:unnamed-chunk-296
 fig:unnamed-chunk-297
 fig:unnamed-chunk-298
+fig:unnamed-chunk-299
 placing-orders
-placing-a-order-in-ibroker
 interpreting-the-short-term-market
 chart-patterns
 candlestick-patterns

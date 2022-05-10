@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 New indicators | Basic trading indicators</title>
+  <meta name="description" content="Introduction to trading indicators" />
+  <meta name="generator" content="bookdown 0.22.4 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 New indicators | Basic trading indicators" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Introduction to trading indicators" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 New indicators | Basic trading indicators" />
+  
+  <meta name="twitter:description" content="Introduction to trading indicators" />
+  
+
+<meta name="author" content="Camilo Mora" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="weis-wave-volume.html"/>
+<link rel="next" href="polarized-fractal-efficiency.html"/>
+<script src="libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a>Stock signals</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#introduction">Introduction<span></span></a>
+<ul>
+<li><a href="what-affects-the-price-of-a-stock.html#what-affects-the-price-of-a-stock">what affects the price of a stock?<span></span></a>
+<ul>
+<li><a href="what-affects-the-price-of-a-stock.html#scale-of-months-or-years">Scale of months or years<span></span></a></li>
+<li><a href="what-affects-the-price-of-a-stock.html#short-term">Short term<span></span></a></li>
+<li><a href="what-affects-the-price-of-a-stock.html#intra-day-variation">Intra-day variation<span></span></a></li>
+</ul></li>
+<li><a href="how-to-improve-the-odds.html#how-to-improve-the-odds">how to improve the odds<span></span></a></li>
+<li><a href="trading-times.html#trading-times">Trading times<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="1-volume-indicators.html"><a href="1-volume-indicators.html"><i class="fa fa-check"></i><b>1</b> Volume Indicators<span></span></a>
+<ul>
+<li><a href="cummulative-volume-since-the-of-opening-market-day.html#cummulative-volume-since-the-of-opening-market-day">118 Cummulative volume since the of opening market day<span></span></a></li>
+<li><a href="cummulative-volume-since-the-of-opening-market-week.html#cummulative-volume-since-the-of-opening-market-week">119 Cummulative volume since the of opening market week<span></span></a></li>
+<li><a href="net-volume.html#net-volume">120 Net volume<span></span></a></li>
+<li><a href="relative-volume-rvol.html#relative-volume-rvol">121 Relative Volume (RVOL)<span></span></a></li>
+<li><a href="volume-oscillator-vo.html#volume-oscillator-vo">122 Volume oscillator (VO)<span></span></a></li>
+<li><a href="accumulationdistribution-index-ad.html#accumulationdistribution-index-ad">123 AccumulationDistribution Index (ad)<span></span></a></li>
+<li><a href="accumulationdistribution-oscillator-adosc.html#accumulationdistribution-oscillator-adosc">124 AccumulationDistribution Oscillator (adosc)<span></span></a></li>
+<li><a href="archer-on-balance-volume.html#archer-on-balance-volume">125 Archer On Balance Volume<span></span></a></li>
+<li><a href="chaikin-money-flow-cmf.html#chaikin-money-flow-cmf">126 Chaikin Money Flow (cmf)<span></span></a></li>
+<li><a href="ease-of-movement-eom.html#ease-of-movement-eom">127 Ease of Movement (eom)<span></span></a></li>
+<li><a href="elders-force-index-efi.html#elders-force-index-efi">128 Elders Force Index (efi)<span></span></a></li>
+<li><a href="klinger-oscillator-kvo.html#klinger-oscillator-kvo">129 Klinger Oscillator (kvo)<span></span></a></li>
+<li><a href="money-flow-index-mfi.html#money-flow-index-mfi">130 Money Flow Index (MFI)<span></span></a></li>
+<li><a href="negative-volume-index-nvi.html#negative-volume-index-nvi">131 Negative volume index (NVI)<span></span></a></li>
+<li><a href="on-balance-volume-obv.html#on-balance-volume-obv">132 On balance volume (OBV)<span></span></a>
+<ul>
+<li><a href="on-balance-volume-obv.html#obv-divergence">OBV divergence<span></span></a></li>
+<li><a href="on-balance-volume-obv.html#obv-trend-confirmation">OBV trend confirmation<span></span></a></li>
+<li><a href="on-balance-volume-obv.html#obv-crossover">OBV Crossover<span></span></a></li>
+</ul></li>
+<li><a href="positive-volume-index-pvi.html#positive-volume-index-pvi">133 Positive Volume Index (pvi)<span></span></a></li>
+<li><a href="price-volume-pvol.html#price-volume-pvol">134 Price Volume (pvol)<span></span></a></li>
+<li><a href="price-volume-rank.html#price-volume-rank">135 Price Volume Rank<span></span></a></li>
+<li><a href="price-volume-trend-pvt.html#price-volume-trend-pvt">136 Price Volume Trend (pvt)<span></span></a></li>
+<li><a href="volume-profile.html#volume-profile">137 Volume Profile<span></span></a></li>
+<li><a href="weis-wave-volume.html#weis-wave-volume">138 Weis wave volume<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-new-indicators.html"><a href="2-new-indicators.html"><i class="fa fa-check"></i><b>2</b> New indicators<span></span></a>
+<ul>
+<li><a href="polarized-fractal-efficiency.html#polarized-fractal-efficiency">139 Polarized Fractal Efficiency<span></span></a></li>
+<li><a href="random-walk-index.html#random-walk-index">140 Random Walk Index<span></span></a></li>
+<li><a href="demarker-dem.html#demarker-dem">141 Demarker (DeM)<span></span></a></li>
+<li><a href="decision-point.html#decision-point">142 Decision Point<span></span></a></li>
+<li><a href="b3-directional.html#b3-directional">143 B3 directional<span></span></a></li>
+<li><a href="relative-to-past-weeks-high-low.html#relative-to-past-weeks-high-low">144 Relative to past Week’s High Low<span></span></a>
+<ul>
+<li><a href="relative-to-past-weeks-high-low.html#donchians-weekly-rule">Donchians weekly rule<span></span></a></li>
+<li><a href="relative-to-past-weeks-high-low.html#weeks-high-lows">52 weeks high lows<span></span></a></li>
+</ul></li>
+<li><a href="removal-from-or-addition-to-sp500.html#removal-from-or-addition-to-sp500">145 Removal from or addition to SP500<span></span></a></li>
+<li><a href="hedge-fund-copycat.html#hedge-fund-copycat">146 Hedge Fund copycat<span></span></a></li>
+<li><a href="momentum-in-weekly-winners-and-lossers.html#momentum-in-weekly-winners-and-lossers">147 Momentum in weekly winners and lossers<span></span></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><img src="images/MoraLab.png" width="270"></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Basic trading indicators</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="new-indicators" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> New indicators<a href="2-new-indicators.html#new-indicators" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Indicators below may be grouped into the categories above, but were found after the original list was compiled.</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="weis-wave-volume.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="polarized-fractal-efficiency.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "lunr",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+},
+"highlight": "pigments"
+});
+});
+</script>
+
+</body>
+
+</html>
