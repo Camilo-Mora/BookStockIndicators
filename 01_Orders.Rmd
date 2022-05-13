@@ -1,4 +1,4 @@
-# Placing orders {}
+# Placing orders
 
 To buy or sell an stock, you need to register with an online broker (there are other ways, so you know). There are several available like Robinhood, Interactive brokers, TDAmeritrade, etc. They all offer zero commissions for trading with US stocks, but they still charge you the commission from the stock exchange where the given stock would be traded.
 

@@ -1,4 +1,4 @@
-# Combinations {}
+# Combinations
 
 Individually, most technical indicators add value to an strategy, but rarely they will be suffient alone, as they all have limitations. A way to improve the odds is to satisty the limitations in one indicator with the strengths of another.
 

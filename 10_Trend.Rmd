@@ -1,4 +1,4 @@
-# Trend Indicators {}
+# Trend Indicators
 
 This group of indicators aim to diagnose the direction of stock price.
 

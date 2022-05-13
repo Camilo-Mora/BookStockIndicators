@@ -1,4 +1,4 @@
-# Chart patterns {}
+# Chart patterns
 
 The internet is full of case examples of patterns in stock prices that commonly result in high profits. Let's review them.
 

@@ -290,6 +290,7 @@ fig:unnamed-chunk-296
 fig:unnamed-chunk-297
 fig:unnamed-chunk-298
 fig:unnamed-chunk-299
+introduction
 placing-orders
 interpreting-the-short-term-market
 chart-patterns

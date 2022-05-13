@@ -7,7 +7,7 @@ description: "Introduction to trading indicators"
 ---
 
 
-# Introduction {-}
+# Introduction
 This book is a quick reference for trading as well as useful indicators. For extended details, visit  [investopedia](https://www.investopedia.com/terms/m/macd.asp).
 
 

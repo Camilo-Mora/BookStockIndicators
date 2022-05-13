@@ -1,4 +1,4 @@
-# Volatility {}
+# Volatility
 
 This group of indicators aim to diagnose the variability of stock price.
 

@@ -1,4 +1,4 @@
-# Fundamentals {}
+# Fundamentals
 
 The use of patterns on candles (e.g., the hammer, the soldiers, etc.) and indicators (e.g., EMA, MACD, etc.) are broadly defined as technical studies.
 

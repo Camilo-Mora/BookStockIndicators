@@ -1,4 +1,4 @@
-# Technical indicators {}
+# Technical indicators
 
 Technical indicators are mathematical calculations based on historic price, volume, or traders' interest that aims to forecast stock direction.
 

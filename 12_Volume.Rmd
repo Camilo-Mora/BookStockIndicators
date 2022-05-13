@@ -1,4 +1,4 @@
-# Volume Indicators {}
+# Volume Indicators
 
 Volume is the number of shares traded at a given point in time.
 

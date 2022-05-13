@@ -1,4 +1,4 @@
-# Interpreting the short term market {}
+# Interpreting the short term market
 
 As indicated earlier, in this book we are interested in short term trading. At that scale, a lot of predictable human behavior is at play. Think of it as a game with two teams: The Longers and the Shorters.
 

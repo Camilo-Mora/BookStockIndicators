@@ -1,4 +1,4 @@
-# Candlestick patterns {}
+# Candlestick patterns
 
 Another general tool to make inference about likely trends in stocks is a set of patterns observed in candlesticks. 
 
@@ -29,7 +29,7 @@ Basically, three consecutive candlesticks by the same team, followed by one larg
 
 
 ### Bullish three line strike {-}
-Here the pattern is for three similar bull candlesticks in an increasing pattern, are followed by a massive bear candlesitck. The bear candlestick engulf all three prior candlesticks.
+Here the pattern is for three similar bull candlesticks in an increasing pattern, are followed by a massive bear candlestick. The bear candlestick engulf all three prior candlesticks.
 
 Think of it like three small attacks from the longers, that are counter by a massive attack from the shorters. The shorters normally win and the prices go down.
 

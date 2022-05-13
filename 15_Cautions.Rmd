@@ -1,11 +1,13 @@
-# Cautions {}
+# Cautions
 
 ## Check slower trend {-}
+
 Any time when making a short term entry, it is recommended to look at the mid- and long-term trend to avoid making trades against the direction of the intermediate trend [1].
 
 1. [Murphy, John (1999). Technical Analysis of the Financial Markets. Prentice Hall Press. pp. 252–255. ISBN 0-7352-0066-1] 
 
 ## Sell in May and go away {-}
+
 Traders, like everyone else takes holidays, and it appears they do so in the summer. As such, there is an existing theory that bullish traders take a break during the summer and early autumn months and that stocks will typically fall until just before the winter holidays. 
 
 With that said, in 2021, the S&P rose 10% between the start of May and the end of October, and has averaged a 5.7% gain between May and October over the past decade. The only time the market fell in that period was in 2015. 
@@ -13,9 +15,11 @@ With that said, in 2021, the S&P rose 10% between the start of May and the end o
 This, however, speaks to potential timing effects on stock price. They clearly exists within a day, and week, and according to this idea, year.
 
 ## Wall of worry {-}
+
 This idea suggest that there is always a pull back from a large drop (like a market crash). Markets often rally in troubling times, partly because investors are looking ahead to a rosier future when all those fears diminish.
 
 ## Disposition effect{-}
+
 Most investors have an affinity for selling winners. It feels good. It builds our confidence and gives us something to brag about for years.
 
 In fact, we’d rather sell an investment that’s made money — likely continues to make money — than suffer the pain of selling a loser. So we hold onto the loser with the hopes that it breaks even.
@@ -23,6 +27,7 @@ In fact, we’d rather sell an investment that’s made money — likely continu
 The blunder of selling winners too soon and holding losers too long is known as the disposition effect. It’s one of the biggest mistakes investors make.
 
 ## Correlation effect{-}
+
 Diversification is commonly seen as a way to avert risk; like do not put all your eggs in a single basket.
 At times, however, different stocks can be related to each for numerous reasons, and thus, in such cases, you may not have as many independence investments as you may think, and all may be associated with the same risk. As such it is recommended, to check for collinearities among stock price of invested stocks to avoid such a risk. It should be noted, however, that correlation between pairs of stock can at time be used as a trading strategy.
 

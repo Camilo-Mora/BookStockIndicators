@@ -1,4 +1,4 @@
-# Statisitcs {}
+# Statisitcs
 
 These are general descriptors of the distribution and central tendency of price over a period of time.
 

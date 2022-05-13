@@ -1,4 +1,4 @@
-# Overlap Indicators {}
+# Overlap Indicators
 
 This type of indicator could be regarded as describing the trend, but it is named here as "overlap", meaning the indicator can be placed on the same scale as price, to use the same terms used in the Pandas technical indicators tool set.
 
