@@ -1,10 +1,10 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
-fig:unnamed-chunk-5
+fig:unnamed-chunk-4
 fig:unnamed-chunk-6
-fig:unnamed-chunk-8
+fig:unnamed-chunk-7
 fig:unnamed-chunk-9
-fig:unnamed-chunk-11
+fig:unnamed-chunk-10
 fig:unnamed-chunk-12
 fig:unnamed-chunk-13
 fig:unnamed-chunk-14
@@ -18,7 +18,7 @@ fig:unnamed-chunk-21
 fig:unnamed-chunk-22
 fig:unnamed-chunk-23
 fig:unnamed-chunk-24
-fig:unnamed-chunk-26
+fig:unnamed-chunk-25
 fig:unnamed-chunk-27
 fig:unnamed-chunk-28
 fig:unnamed-chunk-29
@@ -49,7 +49,7 @@ fig:unnamed-chunk-53
 fig:unnamed-chunk-54
 fig:unnamed-chunk-55
 fig:unnamed-chunk-56
-fig:unnamed-chunk-58
+fig:unnamed-chunk-57
 fig:unnamed-chunk-59
 fig:unnamed-chunk-60
 fig:unnamed-chunk-61
@@ -86,7 +86,7 @@ fig:unnamed-chunk-91
 fig:unnamed-chunk-92
 fig:unnamed-chunk-93
 fig:unnamed-chunk-94
-fig:unnamed-chunk-96
+fig:unnamed-chunk-95
 fig:unnamed-chunk-97
 fig:unnamed-chunk-98
 fig:unnamed-chunk-99
@@ -290,6 +290,7 @@ fig:unnamed-chunk-296
 fig:unnamed-chunk-297
 fig:unnamed-chunk-298
 fig:unnamed-chunk-299
+fig:unnamed-chunk-300
 introduction
 placing-orders
 interpreting-the-short-term-market

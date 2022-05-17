@@ -69,6 +69,13 @@ Elon Musk is another classic example, in which simple Twitt can affect considera
 
 Other factors that can cause dramatic changes in stock price from one moment to the next one include: Expected reports of economic performance of the given company, purchase of new machines, granting of new patents, lawsuits, changes in CEOs, selling of the company, the climate, terrorist attacks,etc.
 
+Below is an example of variations in Bitcoin prices associated with major news...
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Bitcoin crash'}
+knitr::include_graphics("images/BitcoinHistory.png")
+```
+
+
 
 ### Intra-day variation {-}
 Over the lapse of a day thousands of people trading look at charts of stocks going up and down in price.
