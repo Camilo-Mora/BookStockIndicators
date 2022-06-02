@@ -11,7 +11,6 @@ description: "Introduction to trading indicators"
 This book is a quick reference for trading as well as useful indicators. For extended details, visit  [investopedia](https://www.investopedia.com/terms/m/macd.asp).
 
 
-
 Any given company can chose to become publicly traded by creating an IPO.
 
 
@@ -29,6 +28,7 @@ Let's review that again: the price of a stock is determined by the supply and de
 If the supply of an stock is high (that means there is an over-offer of stocks), the price would expect to go down.
 
 If the demand of an stock is high (that means there is short-supply of stocks), the price would expect to go up.
+
 
 ## what affects the price of a stock? {-}
 The price of an stocks can vary for several reasons and at different time scales:
@@ -76,13 +76,12 @@ knitr::include_graphics("images/BitcoinHistory.png")
 ```
 
 
-
 ### Intra-day variation {-}
 Over the lapse of a day thousands of people trading look at charts of stocks going up and down in price.
 
 The observation of those chart make these people buy or sell the stocks depending if they see a chance to gain, or an opportunity to avoid losing, money.
 
-Imagine you see a stock going up in price, while available shares (so call volume) decline . You may see this as an opportunity to get on the wave and buy, hoping to sell at a higher price.
+Imagine you see a stock going up in price, while available shares (so call volume) increase. This probably indicates strong momentum, lots of interest, signaling an opportunity to get on the wave and buy, hoping to sell at a higher price.
 
 ```{block2, type='rmdexercise'}
 Volume is refered as the number of stocks/shares traded (sold or bought) at a given time intervals. 
@@ -98,43 +97,41 @@ knitr::include_graphics("images/StockBehaviour.png")
 
 As noted, the change of the stock price over this small scales, can be influenced by very predictable human behavior. 
 
-## how to improve the odds {-}
+## How to improve the odds {-}
 If one could collect data on all factors that influence the supply and demand of a stock, one could almost certainly predict the price of that stock. 
 
 The reality is that such data is difficult to gather. Just image if one can predict the next time Elon Musk will twitt?
 
 Because of the inability to collect all data that affects supply and demand, stocks may appear unpredictable, or in the eyes of many a gamble.
 
-However, shorter fluctuations in stocks price and volume can at times provide signals, likely reflecting supply and demand, which can then allow to forecast to at least short term scales the price of stocks.
+However, shorter fluctuations in stocks price and volume can at times provide signals, likely reflecting euphoric departures from the true value of a stock, which can be predicted providing an edge.
 
-The idea here is that changes in stock price and volume can lead to predictable human behavior. Here I provide a compilation of indicators used to beat the odds over short term periods: the human behaviors side of stock prices variations.
+The idea here is that changes in stock price and volume can lead to predictable human behavior. Here I provide a compilation of indicators used to improve the odds over short term periods: the human behaviors side of stock prices variations.
 
 
-## Trading times {-}
-Shares of a given stock can be traded on any stock exchange in which a company is listed. Like you can buy Coke in Walmart or 7/11, but may be not in Homedepot. 
+## Interpreting price movements {-}
 
-This is important because at times the same stock can have different prices in different exchanges. You can actually at times make money but just buying in one exchange and selling in another. There are all pretty fine tune, tough :)
+As indicated earlier, in this book we are interested in short term trading. At that scale, a lot of predictable human behavior is at play. Think of it as a game with two teams: The Longers and the Shorters.
 
-There are stock exchanges in almost every country, the most famous is the NYSE or the New York Stock Exchange. They operate from 9:30 am to 4:00 pm.
+They want different things:
 
-```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Bitcoin crash'}
-knitr::include_graphics("images/NYSE.png")
+Longers, people that buy and want the stock to go up.
+
+Shorters, people that sells the stock and want the stock to go down.
+
+They fight a never ending war with many battles. 
+
+At times, you see the longers wining by seeing the price increase, but energy may run low, and the shorters may attack, causing a reversal in price.
+
+By affecting the demand and supply of shares, the balance of forces between the longers and the shorters determines the price of the stock.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Shorters, longers and stock price'}
+knitr::include_graphics("images/BearBull.png")
 ```
 
+As a day trading plays out, the transactions by longers and shorters will make the price to go up or down, until a point in which one side sees no gain, and the other wins, causing a breakthrough in the stock price.
 
-Other stock exchanges are fully electronic like the NASQAT. 
+When you read into stock charts, you need to think on the motivation behind the people driving the patterns. 
 
-```{block2, type='rmdexercise'}
-The Nasdaq is the largest and oldest electronic stock market in the world, meaning all of its buying and selling happens electronically, rather than on a physical trading floor. 
-```
-
-With the availability of digital trading, some stocks can be traded after hour. The after-hours market trades are from 4:00 p.m. to 8:00 p.m. 
-
-You also can trade during the pre-market from 4:00 a.m. to 9:30 a.m. ET.
-
-These are times in New York.
-
-
-
-
+At times, you can see patterns with no return, or very winnable patterns, you can win in.
 
