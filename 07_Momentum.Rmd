@@ -597,11 +597,16 @@ It finds sections of the Bollinger Bands® study which fall inside the Keltner's
 knitr::include_graphics("images/squize_pro.png")
 ```
 
-## 47 Stochastic Oscillator {-}
-This indicator compares the most recent close, to the highest difference in price over a prior period of time. 
+## 47 Stochastic Oscillator And Williams %R {-}
 
-
+Short for Stochs, this indicator compares the most recent close, to the highest difference in price over a prior period of time. 
 The general theory for this indicator is that in a market trending upward, prices will close near the historical high, and in a market trending downward, prices close near the historical low.
+
+Stochastic is quite similar in its nature to the  Williams %R with the most notable difference being their scales. The Williams Percent Range uses a 0 to -100 scale, while for the Stochastic the readings vary from 0 to 100. The Stochastic can also boast a moving average, used as a source of crossover signals.
+
+
+This indicator can be used as confirmation from other indicators about reversal or trend continuation. Say, for instance, there has been a bull trend, but the Stochs start trending towards the lower part of recent price, this could indicate that the trend is running out of steam and could soon revert.
+
 
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Stoch'}
 knitr::include_graphics("images/ST.png")
