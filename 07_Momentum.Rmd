@@ -701,7 +701,7 @@ knitr::include_graphics("images/uo.png")
 ```
 
 ## 54 Williams Accumulation / Distribution {-}
-The indicator is telling a trader where the current price is relative to the highest high over a prior period. It does helps to reveal tops and bootms.
+Williams AD measures market pressure. Look for divergence with price. When the price makes a new low, but the AD does not, buy, and vice versa.
 
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Williams Accumulation / Distribution'}
 knitr::include_graphics("images/wadf.png")
