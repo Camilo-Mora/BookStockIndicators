@@ -370,6 +370,7 @@
 <li class="chapter" data-level="" data-path="removal-from-or-addition-to-sp500.html"><a href="removal-from-or-addition-to-sp500.html"><i class="fa fa-check"></i>145 Removal from or addition to SP500</a></li>
 <li class="chapter" data-level="" data-path="hedge-fund-copycat.html"><a href="hedge-fund-copycat.html"><i class="fa fa-check"></i>146 Hedge Fund copycat</a></li>
 <li class="chapter" data-level="" data-path="momentum-in-weekly-winners-and-lossers.html"><a href="momentum-in-weekly-winners-and-lossers.html"><i class="fa fa-check"></i>147 Momentum in weekly winners and lossers</a></li>
+<li class="chapter" data-level="" data-path="ratio-body-to-wick.html"><a href="ratio-body-to-wick.html"><i class="fa fa-check"></i>148 Ratio body to wick</a></li>
 </ul></li>
 <li class="chapter" data-level="15" data-path="15-combinations.html"><a href="15-combinations.html"><i class="fa fa-check"></i><b>15</b> Combinations</a>
 <ul>
@@ -407,28 +408,28 @@
 <p>RWI compares a security’s price movements to random movements in an effort to determine if it’s in a statistically significant trend.</p>
 <p>The bounds of randomness, also known as displacement distances, could be calculated by taking the square foot of the number of binary events, which refer to two-sided outcomes with equal probability (like a coin toss). Logically speaking, any movement outside of these bounds suggests the movement is not inherently random in nature. The RWI applies these mathematical principles when measuring an uptrend and downtrend to determine if it’s random or statistically meaningful.</p>
 <p>The index delivers two ouputs for the high and low trading prices.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-285"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-286"></span>
 <img src="images/RWh.png" alt="Random Walk Index High" width="100%" />
 <p class="caption">
 Figure 14.3: Random Walk Index High
 </p>
 </div>
 <p>the Low index is similar:</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-286"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-287"></span>
 <img src="images/RWl.png" alt="Random Walk Index Low" width="100%" />
 <p class="caption">
 Figure 14.4: Random Walk Index Low
 </p>
 </div>
 Readings above 1.0 indicate that a security is trending higher or lower, while readings below 1.0 suggest that a security may be moving randomly. The two lines can be substracted to create a single indicator, that appears to capture the signals from the two lines:
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-287"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-288"></span>
 <img src="images/RW.png" alt="Random Walk Index" width="100%" />
 <p class="caption">
 Figure 14.5: Random Walk Index
 </p>
 </div>
 <p>Oftentimes, traders and market timers will enter long positions when a long-term RWI High is greater than 1.0 and the short-term RWI Low is also above 1.0. This means the trader tracks two RWI calculations, a longer-term one, say 64-periods, and a short-term one, say seven-periods.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-288"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-289"></span>
 <img src="images/RW2.png" alt="Random Walk Index at two lengths" width="100%" />
 <p class="caption">
 Figure 14.6: Random Walk Index at two lengths

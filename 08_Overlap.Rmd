@@ -93,20 +93,25 @@ knitr::include_graphics("images/FWA.png")
 
 
 ## 63 Gann High Low Activator {-}
-It is a moving average based trend indicator consisting of two different simple moving averages.
-    
-The indicator tracks both curves (of the highs and the lows). The close of the bar defines which of the two gets plotted.
+
+This indicator uses one EMA for the highs and the other for the lows. If the current price closes near the low EMA, the indicator returns the high EMA, and vic. As such the indicator helps to identify trend reversals.
+
     
 Increasing high_length and decreasing low_length better for short trades, vice versa for long positions.
 
-The image below show the Gann line (organge and red) compared to an EMA of the same length.
+The image below show the Gann line (orange and red) compared to an EMA of the same length (Blue).
 
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Gann High Low Activator'}
-knitr::include_graphics("images/FWA.png")
+knitr::include_graphics("images/gan.png")
+```
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Gann High Low Activator'}
+knitr::include_graphics("images/GannHihgLow.png")
 ```
 
 ## 64 Guppy Multiple Moving Averages (guppy) {-}
-It is a combination of several slow and several fast EMAs. Slow emas reflect the sentiment of long-term investors, while the set of fast EMAs reflect that of short-term traders. Crossovers among EMAs reflect price transitions.
+It is a combination of several slow and several fast EMAs. Slow EMAs reflect the sentiment of long-term investors, while the set of fast EMAs reflect that of short-term traders. Crossovers among EMAs reflect price transitions.
 
 It could be combined in a single indicator by using the Standard Deviation from all EMAs at a given price.
 
