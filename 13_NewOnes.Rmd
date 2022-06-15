@@ -144,7 +144,7 @@ The Ratio  wick to body indicator (Indicator #148) attempts to describe the begi
 Such a ratio has a problem that it is based on each single candle. The divergence indicator, attempts to deal with that problem by looking at the correlation between bodies and wicks of recent candles. Values moving towards -1 indicate a wick to body divergence. Values near to 1 indicate that the bodies and the wicks are equally increasing. This indicator can adjust the time resolution of the candles, and the time period over which the correlation is done.
 
 
-```{r, out.width = "20%", echo= FALSE, fig.align = 'center',fig.cap = 'Divergency  wick to body'}
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Divergency  wick to body'}
 knitr::include_graphics("images/DWB.png")
 ```
 
