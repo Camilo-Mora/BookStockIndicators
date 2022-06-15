@@ -1,4 +1,4 @@
-# Cautions
+# Cautions and Comments
 
 ## Check slower trend {-}
 
@@ -30,5 +30,40 @@ The blunder of selling winners too soon and holding losers too long is known as 
 
 Diversification is commonly seen as a way to avert risk; like do not put all your eggs in a single basket.
 At times, however, different stocks can be related to each for numerous reasons, and thus, in such cases, you may not have as many independence investments as you may think, and all may be associated with the same risk. As such it is recommended, to check for collinearities among stock price of invested stocks to avoid such a risk. It should be noted, however, that correlation between pairs of stock can at time be used as a trading strategy.
+
+## Removal from or addition to SP500 {-}
+The addition or removal of a stocks from the SP500, and perhaps other indicators based on high standards for inclusion, can have strong effects of stock price. The idea here is to short stocks that are removed and buy stocks that are added.
+
+In 2021, the S&P announced additions and removals in December 3 and changes became effective on the closing of December 17th.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'SP500 removed or added'}
+knitr::include_graphics("images/SP500Removal.png")
+```
+
+The figure below show the price for one of the stocks added. As noted changes were obvious after the 17th.
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'SP500 added'}
+knitr::include_graphics("images/SP500Addition.png")
+```
+
+
+The figure below show the price for one of the stocks removed As noted changes were obvious on the 17th. Although price eventually recovered to that position several days later.
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'SP500 removed'}
+knitr::include_graphics("images/SP500Removed.png")
+```
+
+
+Additional [info](https://www.smartkarma.com/insights/s-p500-rebalance-for-december-2021-rearranging-the-deckchairs)
+
+## Hedge Fund copycat {-}
+Hedge Funds are organizations, where people can place their money to be invested at the discretion of the experts working the given Hedge Fund. Some of these organizations have access to lots of money to acquire data available, have the best information and manpower to take advantage of inefficiencies in the markets, or make wise (sane) long term investments.
+
+By law, every three months, they have to release the list of stocks they have invested on. Using this list as reference for investment have shown considerably high profits that investing in the S&P500 alone.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Returns of copy large HedgeFunds'}
+knitr::include_graphics("images/Hedge.png")
+```
+
+
+
 
 
