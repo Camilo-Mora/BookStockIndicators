@@ -317,4 +317,19 @@ knitr::include_graphics("images/Channel.png")
 
 Liquidity is how easy a stock can be bought or sold without affecting price. The higher the volume, the higher the liquidity. This is important to consider for many reasons. If you are placing an order in a stock with low liquidity it may never fill completely, or fill at much worse prices than expected. Another worse case scenario is when you own many shares of a stock with low liquidity, nobody may want to buy from you.
 
+## Market profile {-}
+The ultimate purpose of of fundamental data, technical indicators, candle and chart patterns is to identify specific points in price data, at which entering long or short could result in a profit.
+
+At the most basic level, those critical entry points are 
+
+1. When price is consolidated and then breaks down; a good short entry.
+2. When price reverses upward from a downward trend; good long entry.
+3. When price continues an upward trend; good long entry.
+4. when price reverses downward from an upward trend; good short entry.
+5. when price continues a downward trend; good short entry;
+6. when price is consolidated and breaks up; good long entry.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Price Pattern'}
+knitr::include_graphics("images/PricePattern.png")
+```
  
