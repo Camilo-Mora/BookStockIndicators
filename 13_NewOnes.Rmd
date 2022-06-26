@@ -148,3 +148,25 @@ Such a ratio has a problem that it is based on each single candle. The divergenc
 knitr::include_graphics("images/DWB.png")
 ```
 
+
+## 147 Relative position to after hour market {-}
+Price variation after trading hours is well know to be very volatility due to reduced liquidity. After opening predictable price patterns came occur.
+
+This indicator calculates the price position of a given candle relative to the prior minimum and maximum price during off market hours (i.e., minimum and maximum price from 4pm to 8 pm the prior day and 4am to 9:30am from the current day).
+
+A value of +2 indicates that the given candle is twice the range between the minimum and maximum price after trading hours. If positive, the candle is above the maximum after hour price. If negative, the candle is below the minimum after hour price.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Relative to After hour '}
+knitr::include_graphics("images/RelPosBM.png")
+```
+
+## 148 Relative position to prior market day {-}
+Price variation during the prior market day can indicate potential benchmarks. 
+
+This indicator calculates the price position of a given candle relative to the minimum and maximum price during the prior day (i.e., minimum and maximum price from 9:30am to 4:00pm the prior day).
+
+A value of +2 indicates that the given candle is twice the range between the minimum and maximum price during the prior day. If positive, the candle is above the maximum price the day before. If negative, the candle is below the minimum price the prior day.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Relative to price range prior day'}
+knitr::include_graphics("images/RelPosPD.png")
+```
