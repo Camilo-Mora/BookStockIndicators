@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>05 Bias | Basic trading indicators</title>
+  <title>06 AR | Basic trading indicators</title>
   <meta name="description" content="Introduction to trading indicators" />
   <meta name="generator" content="bookdown 0.26.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="05 Bias | Basic trading indicators" />
+  <meta property="og:title" content="06 AR | Basic trading indicators" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Introduction to trading indicators" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="05 Bias | Basic trading indicators" />
+  <meta name="twitter:title" content="06 AR | Basic trading indicators" />
   
   <meta name="twitter:description" content="Introduction to trading indicators" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="balance-of-power-bop.html"/>
-<link rel="next" href="ar.html"/>
+<link rel="prev" href="bias.html"/>
+<link rel="next" href="center-of-gravity-cg.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -407,13 +407,20 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="bias" class="section level2 unnumbered hasAnchor">
-<h2>05 Bias<a href="bias.html#bias" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Bias is the difference between price and a moving average divided by the average. This gives a relative value of how far price is trending from the mean. Re-bouncing from extreme bias can indicate reversals.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-116"></span>
-<img src="images/Bias.png" alt="Bias" width="100%" />
+<div id="ar" class="section level2 unnumbered hasAnchor">
+<h2>06 AR<a href="ar.html#ar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This index is available in the Pandas library as ABAR, and no information is provided on how it should be used.</p>
+<p><a href="https://help.eaglesmarkets.com/hc/en-us/articles/900003588066-Foreign-exchange-technical-analysis-what-is-Brar-in-foreign-exchange-technical-analysis">This</a> page suggest that the indicator reflects the overall sentiment of the stock, and its variation may help to indicate market trend and momentum.</p>
+<p>The equation of the indicator is</p>
+<p>HO= High - Open
+OL= Open - Low</p>
+<p>AR= sum(HO, length) - sum(OL, length)</p>
+<p>Basically, the distance from the high and low to the open price aims to quantify who is having the most dominance: if HO is smaller than OL, the largest price efefct was caused by the bears.</p>
+<p>The indicator an be used at different candle resolutions and the difference of the indicator at different resolutions can inidcate ternd continuation and reversals.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-117"></span>
+<img src="images/AR.png" alt="AR" width="100%" />
 <p class="caption">
-Figure 8.10: Bias
+Figure 8.11: AR
 </p>
 </div>
 </div>
@@ -422,8 +429,8 @@ Figure 8.10: Bias
           </div>
         </div>
       </div>
-<a href="balance-of-power-bop.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="ar.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="bias.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="center-of-gravity-cg.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

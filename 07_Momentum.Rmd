@@ -102,16 +102,29 @@ Bias is the difference between price and a moving average divided by the average
 knitr::include_graphics("images/Bias.png")
 ```
 
-## 06 BRAR {-}
-This index is available in the Pandas library, but no information is provided on how it should be used.
+## 06 AR {-}
+
+This index is available in the Pandas library as ABAR, and no information is provided on how it should be used.
 
 
 [This](https://help.eaglesmarkets.com/hc/en-us/articles/900003588066-Foreign-exchange-technical-analysis-what-is-Brar-in-foreign-exchange-technical-analysis) page suggest that the indicator reflects the overall sentiment of the stock, and its variation may help to indicate market trend and momentum.
 
+The equation of the indicator is
 
-```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'BRAR'}
-knitr::include_graphics("images/brar.png")
+HO= High - Open
+OL= Open - Low
+
+AR= sum(HO, length) - sum(OL, length)
+
+Basically, the distance from the high and low to the open price aims to quantify who is having the most dominance: if HO is smaller than OL, the largest price efefct was caused by the bears.
+
+The indicator an be used at different candle resolutions and the difference of the indicator at different resolutions can inidcate ternd continuation and reversals.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'AR'}
+knitr::include_graphics("images/AR.png")
 ```
+
 ## 07 Center of Gravity (cg) {-}
 CG attempts to identify turning points while exhibiting zero lag and smoothing.
 
