@@ -170,3 +170,13 @@ A value of +2 indicates that the given candle is twice the range between the min
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Relative to price range prior day'}
 knitr::include_graphics("images/RelPosPD.png")
 ```
+
+## 149 Point of Control prior Off market (OnPoc) {-}
+This indicator calculates the volume profile of the prior off market data (i.e., after market yesterday and before market today) to estimate the Point of Control, which is used as reference for the price data of the current day. This offmarket POC can indicate pockets of volume, which in turn can reveal important points of support or resistance.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'POC prior off market'}
+knitr::include_graphics("images/POCOffmarket.png")
+```
+
+

@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>73 Supertrend | Basic trading indicators</title>
+  <title>149 Point of Control prior Off market (OnPoc) | Basic trading indicators</title>
   <meta name="description" content="Introduction to trading indicators" />
   <meta name="generator" content="bookdown 0.26.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="73 Supertrend | Basic trading indicators" />
+  <meta property="og:title" content="149 Point of Control prior Off market (OnPoc) | Basic trading indicators" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Introduction to trading indicators" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="73 Supertrend | Basic trading indicators" />
+  <meta name="twitter:title" content="149 Point of Control prior Off market (OnPoc) | Basic trading indicators" />
   
   <meta name="twitter:description" content="Introduction to trading indicators" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="sine-weighted-moving-average-sinwma.html"/>
-<link rel="next" href="symmetric-weighted-moving-average.html"/>
+<link rel="prev" href="relative-position-to-prior-market-day.html"/>
+<link rel="next" href="15-combinations.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -408,30 +408,25 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="supertrend" class="section level2 unnumbered hasAnchor">
-<h2>73 Supertrend<a href="supertrend.html#supertrend" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Supertrend is a trend-following indicator based on Average True Range (ATR). The calculation of its single line combines trend detection and volatility. It can be used to detect changes in trend direction and to position stops. The SuperTrend indicator is calculated utilizing the ATR to offset the indicator from the common price. When the price touches the SuperTrend collection it turns to the other direction. One of the advantages of the SuperTrend is definitely that it just moves in direction of the trend.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-198"></span>
-<img src="images/STf.png" alt="Supertrend function" width="100%" />
+<div id="point-of-control-prior-off-market-onpoc" class="section level2 unnumbered hasAnchor">
+<h2>149 Point of Control prior Off market (OnPoc)<a href="point-of-control-prior-off-market-onpoc.html#point-of-control-prior-off-market-onpoc" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This indicator calculates the volume profile of the prior off market data (i.e., after market yesterday and before market today) to estimate the Point of Control, which is used as reference for the price data of the current day. This offmarket POC can indicate pockets of volume, which in turn can reveal important points of support or resistance.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-302"></span>
+<img src="images/POCOffmarket.png" alt="POC prior off market" width="100%" />
 <p class="caption">
-Figure 9.19: Supertrend function
+Figure 14.18: POC prior off market
 </p>
 </div>
-<p>When the price falls below the indicator curve, it turns red and indicates a downtrend. Conversely, when the price rises above the curve, the indicator turns green and indicates an uptrend. After each close above or below Supertrend, a new trend appears.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-199"></span>
-<img src="images/Sf.png" alt="Supertrend" width="100%" />
-<p class="caption">
-Figure 9.20: Supertrend
-</p>
+
 </div>
-</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="sine-weighted-moving-average-sinwma.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="symmetric-weighted-moving-average.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="relative-position-to-prior-market-day.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="15-combinations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
