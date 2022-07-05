@@ -189,4 +189,20 @@ knitr::include_graphics("images/Ypoc.png")
 ```
 
 
+## 151 yesterday's Min Max and Mid (Yh, Yl, Ym) {-}
+This indicator calculates the minimum, maximum and mid value of price (or any other indicator) from the prior day's market data. These values can reveal important points of support or resistance.
 
+Note how breaking above yesterday's high, results in price breaking up.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Yesterdays High Low Mid'}
+knitr::include_graphics("images/Yh.png")
+```
+
+## 152 Prior off market Min Max and Mid (Oh, Ol, Om) {-}
+This indicator calculates the minimum, maximum and mid value of price (or any other indicator) from the prior overnight (off market) market data (Includes yesterday's after hours trading and today's before market trading). These values can reveal important points of support or resistance.
+
+Note how breaking above overnight's high, results in price breaking up.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Overnights High Low Mid'}
+knitr::include_graphics("images/Oh.png")
+```

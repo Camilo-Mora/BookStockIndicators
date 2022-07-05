@@ -65,5 +65,17 @@ knitr::include_graphics("images/Hedge.png")
 
 
 
+## Stop loss hunt {-}
+When you have shares of a stock in long, it is common to set a stop loss as a protection of the price moving downwards. Large institutions, at times and for different reasons, can find out where most of such stop losses are found, and then they place some trades that will trigger the stop losses, forcing you to sell at a loss (cheaper) for the large institutions to buy on the cheap, and ride the wave of the price moving up. The alternative is also true with shorts.
 
+This type of market manipulation is only possible when some type of information (algo, level II data), allows large insitutions to predict where many stop losses are placed, but also have lots of money to buy enough shares to trigger the stop losses, and them buy them when they are cheap.
+
+Additional [info](https://forextraininggroup.com/stop-loss-hunting-by-forex-brokers-and-professionals/)
+
+
+This type of market manipulation can be identified somehow with the existence of candles with very large shadows.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Stop loss hunt'}
+knitr::include_graphics("images/StopHunt.png")
+```
 
