@@ -112,6 +112,7 @@ This index is available in the Pandas library as ABAR, and no information is pro
 The equation of the indicator is
 
 HO= High - Open
+
 OL= Open - Low
 
 AR= sum(HO, length) - sum(OL, length)

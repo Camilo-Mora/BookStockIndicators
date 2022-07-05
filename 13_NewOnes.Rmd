@@ -180,3 +180,13 @@ knitr::include_graphics("images/POCOffmarket.png")
 ```
 
 
+## 150 yesterday's point of Control (YPoc) {-}
+This indicator calculates the volume profile of the prior market day to estimate the Point of Control, which is used as reference for the price data of the current day. Yesterday's POC can indicate pockets of volume, which in turn can reveal important points of support or resistance.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Yesterdays POC'}
+knitr::include_graphics("images/Ypoc.png")
+```
+
+
+
