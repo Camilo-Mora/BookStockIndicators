@@ -605,6 +605,14 @@ squeeze would be signified by negative momentum.
 knitr::include_graphics("images/squize.png")
 ```
 
+A version of the indicator is to calculate the amount of price the KC is outside the BB, as in the figure below.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Lazy bearSqueeze'}
+knitr::include_graphics("images/SqueezeLZ.png")
+```
+
+
+
 ## 46 Squeeze Pro {-}
 It finds sections of the Bollinger Bands® study which fall inside the Keltner's Channels.
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Squeeze Pro'}

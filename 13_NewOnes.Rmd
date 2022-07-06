@@ -206,3 +206,13 @@ Note how breaking above overnight's high, results in price breaking up.
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Overnights High Low Mid'}
 knitr::include_graphics("images/Oh.png")
 ```
+
+## 153 Lazzy Squeeze {-}
+The squeeze indicator (#45) assess the extent to which the Bolliger Bands are inside the Keltner's Channels, when they are the market is considered to be in a consolidation. When the BB become larger than the KC bands, the market is trending. This new indicator (153), calculates the difference between the BB and the KC bands. When values are Zero, the BB bands are fully inside the KC bands. In the opposite the indicator provide the amount of price the BB are outside the KC bands (market is trending). The Lazzy Squeeze can be calculated at different lengths as in the image below.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Overnights High Low Mid'}
+knitr::include_graphics("images/LazzySQ.png")
+```
+
+
+

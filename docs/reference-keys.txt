@@ -302,6 +302,8 @@ fig:unnamed-chunk-308
 fig:unnamed-chunk-309
 fig:unnamed-chunk-310
 fig:unnamed-chunk-311
+fig:unnamed-chunk-312
+fig:unnamed-chunk-313
 introduction
 terms
 placing-orders
