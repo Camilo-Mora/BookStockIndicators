@@ -208,11 +208,26 @@ knitr::include_graphics("images/Oh.png")
 ```
 
 ## 153 Lazzy Squeeze {-}
-The squeeze indicator (#45) assess the extent to which the Bolliger Bands are inside the Keltner's Channels, when they are the market is considered to be in a consolidation. When the BB become larger than the KC bands, the market is trending. This new indicator (153), calculates the difference between the BB and the KC bands. When values are Zero, the BB bands are fully inside the KC bands. In the opposite the indicator provide the amount of price the BB are outside the KC bands (market is trending). The Lazzy Squeeze can be calculated at different lengths as in the image below.
+The squeeze indicator (#45) assess the extent to which the Bolliger Bands are inside the Keltner's Channels, when they are the market is considered to be in a consolidation. When the BB become larger than the KC bands, the market is trending. This new indicator (153), calculates the difference between the BB and the KC bands. When values are Zero, the BB bands are fully inside the KC bands. In the opposite the indicator provide the amount of price the BB are outside the KC bands (market is trending). 
 
-```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Overnights High Low Mid'}
+See how in the image below, breaking up from a squeeze can turn into a long good profit.
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Lazzy Squeeze'}
+knitr::include_graphics("images/LazzySq1.png")
+```
+
+
+The Lazzy Squeeze can be calculated at different lengths as in the image below.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Lazzy Squeeze at different lengths'}
 knitr::include_graphics("images/LazzySQ.png")
 ```
 
+
+## 154 DesAccelerarion {-}
+This indicators looks at changes in the body size of the candles. When a trend is approaching its end, it is common for the body of the candles to become smaller. This indicator simply standardizes all candles and quantifies the difference between any one candle and its prior candle. Extreme negative values indicate a desacceleration, and likely the start of a consolidation or the end of a trend (i.e., a likely reversal.)
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'DesAccellerarion'}
+knitr::include_graphics("images/DesAccellerarion.png")
+```
 
 
