@@ -216,7 +216,11 @@ knitr::include_graphics("images/LazzySq1.png")
 ```
 
 
-The Lazzy Squeeze can be calculated at different lengths as in the image below.
+The Lazzy Squeeze can be calculated differently as:
+each time the BB is inside the KC bands, get zero (pirce is consolidated), in the opposite calculate  the BB minus the KC bands (in other wordss how much larger are the BB bands that the KC bands, market is trending)
+
+
+
 
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Lazzy Squeeze at different lengths'}
 knitr::include_graphics("images/LazzySQ.png")
