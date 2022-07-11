@@ -416,13 +416,14 @@
             <section class="normal" id="section-">
 <div id="volume-profile" class="section level2 unnumbered hasAnchor">
 <h2>137 Volume Profile<a href="volume-profile.html#volume-profile" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Displays the price at which volume is being traded. The price with the most volume is call point control (POC). It can help to reveal support prices. Deviations from POC can reveal short term deviations. From the volume profile one can also calculate the POCPRice or the price at which most ticks occurred (this does not indicate how much volume is being traded but how many people is trading, can be calcualted only when such data are available). The volume profile can also indicate the value area, which is the low and high price of the volume profile.</p>
+<p>Displays the price at which volume is being traded. The price with the most volume is called point control (POC). It can help to reveal support prices. Deviations from POC can reveal short term deviations. From the volume profile one can also calculate the POCPRice or the price at which most ticks occurred (this does not indicate how much volume is being traded but how many people is trading, can be calculated only when number of trades data are available). The volume profile can also indicate the value area, which is the low and high price of the volume profile.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-284"></span>
 <img src="images/vp.png" alt="Volume Profile " width="100%" />
 <p class="caption">
 Figure 13.30: Volume Profile
 </p>
 </div>
+<p>In our book, all three variables of the volume profile are estimated. “PriceDepPOCVol” indicates the difference between H3 (average of high, low and close price) from the Point of Control price. “PriceDepPOCPrice” indicates the difference between H3 from the price at which most trades were done (this is only reliable when data includes number of trades at each price). “PriceDepFromValbands” indicates the number of times H3 is above or below the value area bands.</p>
 </div>
             </section>
 
