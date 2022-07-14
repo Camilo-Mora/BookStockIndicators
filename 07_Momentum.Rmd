@@ -353,7 +353,9 @@ knitr::include_graphics("images/kst.png")
 ```
 
 ## 25 Largest consecutive Higher or lower highs or lows and green and red candles {-}
-Count the largest number of consecutive red candles, lower highs, lower lowes (descending trends) and green, higher highs and higher lows (ascending trend). It is expected that larger values in one direction will correlate with larger profit in the opposite direction entry (basically, a correction due to extreme declines or increases).
+Count the largest number of consecutive red candles, lower highs, lower lows (descending trends) and green, higher highs and higher lows (ascending trend). Then it calculates the difference between the two, to determine which direction has the most strength.
+
+It is expected that larger values in one direction will correlate with larger profit in the opposite direction, as there is just so much high a trend can go (basically, a correction due to extreme declines or increases).
 
 ## 26 Momentum {-}
 It is the velocity of price change, by measuring price difference. Similar to ROC, which divides current by prior price and multiply it by 100.
