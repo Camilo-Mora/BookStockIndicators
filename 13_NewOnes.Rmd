@@ -237,4 +237,12 @@ The indicator can be calculated at different time frame (time of window used in 
 knitr::include_graphics("images/DesAccellerarion.png")
 ```
 
+## 155 Average proportional capital (CPM) {-}
+This indicator display the current capital invested in a stock (volume * price) relative to the highest capital invested in the recent past.The indicator can be suited to display reversals.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'CPM'}
+knitr::include_graphics("images/CPM.png")
+```
+
 
