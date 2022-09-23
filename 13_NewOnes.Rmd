@@ -246,3 +246,56 @@ knitr::include_graphics("images/CPM.png")
 ```
 
 
+# 156 Velocity {-}
+This indicator uses the angle of price tendency as indication of the speed at which price is moving up or down. This should capture the same attributes as momentum (difference in price) and ROC (relative change in price), but on different units. The angle/velocity of price change should be stepper at the start of strong price movements.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Velocity'}
+knitr::include_graphics("images/Velocity.png")
+```
+
+
+# 157 Acceleration {-}
+This indicator uses is the angle of the velocity (#156) (like the speed of the speed). The speed of price change should remain constant at the start of a major price movement. Note in the image below how a steady price decline, was refelected in a constant acceleration. In the opposite a price reversal should see fast changes in acceleration.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Acceleration'}
+knitr::include_graphics("images/Acceleration.png")
+```
+
+
+
+# 158 Physical Momentum {-}
+Many trading platforms refer to momentum as the change in price (a.k.a speed), the relative version of which is call Rate of Change (ROC). In Physics, however, momentum is speed times mass. It aims to capture the inertia with winch an object will move given its speed and mass. Think of a small car and a large truck (Different masses), moving at the same speed. If you were to break both automobiles at the same time, given the larger mass, the truck will move further. In trading, one could think of volume as the mass, and this indicator simply measures momentum as it is meant in physics: velocity times volume.
+
+Commoly, the start of a big price movement should coincide with a large Physics Momentum, there is motivation/interest in the trend of the current price.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Physical Momentum'}
+knitr::include_graphics("images/MomentumPhys.png")
+```
+
+
+# 159 Force {-}
+AS in physics, force is measured here as acceleration times mass (volume)
+
+Commonly, the start of a big price movement should coincide with a large Physics Momentum, there is motivation/interest in the trend of the current price.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Force'}
+knitr::include_graphics("images/Force.png")
+```
+
+# 160 ZAPO {-}
+The APO indicator aims to capture the price deviance from a mean (MACD, does a similar think). APO then yields an absolute value, which carries two problems, 1) within a given stock it is hard to determine is the deviance is large or small, 2) the indicator cannot be compared among stocks. ZAPO calcualtes a Z-score on the APOs, which allows to reinterpret the APO in terms of the number of standard deviations prices is above or below the mean. This allows to assess is the APO is large or small, which being comparable among stocks.
+
+Any price reversal, should in principle coincide with an extreme ZAPO value.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'ZAPO'}
+knitr::include_graphics("images/ZAPO.png")
+```
+
+# 161 Volatility width {-}
+This indicator calculates the price range (difference between highest and lowest value), over a prior period of time, as percentage. it can be used to assess if price is consolidating, and or whether the variation in recent price is within the desire profit take. If desite profit take is say 1%, but this indicator yields only 0.5% in recent past, then it will not be wise to enter.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Volatility width'}
+knitr::include_graphics("images/VolatilityW.png")
+```
