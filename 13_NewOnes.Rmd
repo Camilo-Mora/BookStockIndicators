@@ -299,3 +299,14 @@ This indicator calculates the price range (difference between highest and lowest
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Volatility width'}
 knitr::include_graphics("images/VolatilityW.png")
 ```
+
+## 162 Blai5 Koncorde {-}
+This indicator combines four indicators of tendency with 2 of volume. Extended details are provided [here](https://www.blai5.net/blai5-koncorde-que-es-y-como-usarlo/).
+
+Here we only show the "marron" line, which combines rsx, money flow, bollinger and stochastic. In combination, they yield a picture of the direction and strength of the tendency.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Blai'}
+knitr::include_graphics("images/Blai.png")
+```
+
