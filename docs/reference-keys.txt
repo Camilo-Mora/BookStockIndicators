@@ -315,6 +315,10 @@ fig:unnamed-chunk-321
 fig:unnamed-chunk-322
 fig:unnamed-chunk-323
 fig:unnamed-chunk-324
+fig:unnamed-chunk-325
+fig:unnamed-chunk-326
+fig:unnamed-chunk-327
+fig:unnamed-chunk-328
 introduction
 terms
 placing-orders
