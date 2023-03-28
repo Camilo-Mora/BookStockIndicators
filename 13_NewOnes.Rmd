@@ -310,3 +310,14 @@ Here we only show the "marron" line, which combines rsx, money flow, bollinger a
 knitr::include_graphics("images/Blai.png")
 ```
 
+
+## 163 Moras compression {-}
+
+Ultimately, we know the price is consolidated (current volatility ) when it starts raging within a narrower band that we are use to see ( Historical volatility ), so the ratio of the current to historical volatility becomes a straightforward identification of consolidation zones and that is what this indicator provides.
+
+The indicator is scaled such that values near zero mean price is compressed and values near 100 price is over-extended. The indicators is designed to allow different time-frames, while avoiding repainting.
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Moras compression indicator'}
+knitr::include_graphics("images/MorasCompress.png")
+```
