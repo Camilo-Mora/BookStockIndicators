@@ -75,6 +75,14 @@ If you want to sell a stock, you can only sell it at the price buyers are willin
 The price difference between the Ask and Bid price is called "The spread"
 ```
 
+The bid and ask prices are thus used differently on whether you want to enter or exit a trade using a long or short position.
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Type of price used for entry or exit long or short position'}
+knitr::include_graphics("images/BidAskforEntries.png")
+```
+
+
+
 
 ## The order book {-}
 

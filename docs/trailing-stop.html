@@ -438,10 +438,10 @@
 <p>A trailing stop (TS) is a stop loss that moves up if price move up, but remains the same if price moves down. This dynamic stop loss offers the safety of preventing major losses if price goes down, while securing gains in the case the price moves up.</p>
 <p>Image you own shares of a stock at $100 and deploy a TS of 1%. The stock trades lower, and if the price goes below $99 a marker order will be triggered. However, if the price moves to $102, the stop loss will move to ~$101. At this moment, you will already secure $1 profit per share.</p>
 <p>Stop losses and TSs should be deployed with care because at times quick oscillation of price can trigger them. For instance, one should consider monitoring a TS after a certain profit has been reached, rather than risking for the market going down, the TS should be set higher to secure a larger profit, while still leaving available the option for price to go up.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-23"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-24"></span>
 <img src="images/AAPLTS.png" alt="Trailing stop" width="100%" />
 <p class="caption">
-Figure 2.14: Trailing stop
+Figure 2.15: Trailing stop
 </p>
 </div>
 <p>You may also chose to use TS to buy shares, buying them at the lowest possible price. Say you are expecting price should at a near time pullback from a downward trend, by placing a buy trialing stop, you will buy after the price moves up above the TS.</p>
