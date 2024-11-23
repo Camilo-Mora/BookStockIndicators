@@ -1,8 +1,8 @@
 # Technical indicators
 
-Technical indicators are mathematical calculations based on historic price, volume, or traders' interest that aims to forecast stock direction.
+Technical indicators are mathematical calculations based on historic price and/or, volume that aims to forecast stock direction.
 
-Generally speaking, these indicators can be grouped in four main categories that describe different aspects of a stock price:
+Generally speaking they can be grouped in four different categories:
 
 1) Trend: these types of indicators aim to identify the general tendency of a stock price; like up, down,  stable or so-call consolidated.
 
@@ -20,7 +20,9 @@ knitr::include_graphics("images/Momentum.png")
 knitr::include_graphics("images/Volatility.png")
 ```
 
-4) Volume: These indicators describe variations over the number of stocks traded (commonly, volume is shown as the bars at the bottom of most stock prices).  It is expected that any strong trend should be based on large volume traded. Volume is like the foundation over which price should be built.
+4) Trigger: 
+
+These indicators describe variations over the number of stocks traded (commonly, volume is shown as the bars at the bottom of most stock prices).  It is expected that any strong trend should be based on large volume traded. Volume is like the foundation over which price should be built.
 ```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Volume'}
 knitr::include_graphics("images/Volume.png")
 ```
@@ -41,11 +43,13 @@ knitr::include_graphics("images/Holly.png")
 
 However, with the help of new software it is possible to also create indicators based on indicators, which can help to combine indicators from the same category to confirm, and at times filter wrong signals.  [Example here](https://currency.com/awesome-oscillator-vs-macd)
 
-## Tecnical setup for entries {-}
+## Purpose of tecnical indicators {-}
 
 While there are tens, if not hundreds, of technical indicators, they are all based on just two attributes: Price and Volume. Yet, price and Volume can be measured in many different ways that allows you to get different insides into the most likely, next move, of an stock's price. 
 
-In theory, there should be four critical aspects of the market setup for which technical indicators can give you hints into the stock's next move: Position, direction, intention and volatility.
+Technical indicators can give you hints into the stock's next move: Position, direction, intention, volatility or a trigger.
+
+
 
 ### Position {--}
 Where you are can help you know where you can go.  
@@ -96,3 +100,12 @@ Check if your desired profit take is within the  returns likely to be generated 
 knitr::include_graphics("images/VolatilityProfit.png")
 ```
 
+
+### Triggers {--}
+Technical indicators at times cross critical points that can be used as specific entry points. 
+
+
+
+```{r, out.width = "100%", echo= FALSE, fig.align = 'center',fig.cap = 'Price cross over bollinger bands as entry trigger'}
+knitr::include_graphics("images/CrossOver.png")
+```

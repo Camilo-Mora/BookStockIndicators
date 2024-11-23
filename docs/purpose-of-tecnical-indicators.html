@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7 Technical indicators | Basic trading indicators</title>
+  <title>Purpose of tecnical indicators | Basic trading indicators</title>
   <meta name="description" content="Introduction to trading indicators" />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7 Technical indicators | Basic trading indicators" />
+  <meta property="og:title" content="Purpose of tecnical indicators | Basic trading indicators" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Introduction to trading indicators" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7 Technical indicators | Basic trading indicators" />
+  <meta name="twitter:title" content="Purpose of tecnical indicators | Basic trading indicators" />
   
   <meta name="twitter:description" content="Introduction to trading indicators" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="put-call-ratio.html"/>
-<link rel="next" href="purpose-of-tecnical-indicators.html"/>
+<link rel="prev" href="7-technical-indicators.html"/>
+<link rel="next" href="8-momentum.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -438,67 +438,81 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="technical-indicators" class="section level1 hasAnchor" number="7">
-<h1><span class="header-section-number">7</span> Technical indicators<a href="7-technical-indicators.html#technical-indicators" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Technical indicators are mathematical calculations based on historic price and/or, volume that aims to forecast stock direction.</p>
-<p>Generally speaking they can be grouped in four different categories:</p>
-<ol style="list-style-type: decimal">
-<li>Trend: these types of indicators aim to identify the general tendency of a stock price; like up, down, stable or so-call consolidated.</li>
-</ol>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<img src="images/Trend.png" alt="Trend" width="100%" />
+<div id="purpose-of-tecnical-indicators" class="section level2 unnumbered hasAnchor">
+<h2>Purpose of tecnical indicators<a href="purpose-of-tecnical-indicators.html#purpose-of-tecnical-indicators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>While there are tens, if not hundreds, of technical indicators, they are all based on just two attributes: Price and Volume. Yet, price and Volume can be measured in many different ways that allows you to get different insides into the most likely, next move, of an stock’s price.</p>
+<p>Technical indicators can give you hints into the stock’s next move: Position, direction, intention, volatility or a trigger.</p>
+<div id="position" class="section level3 unnumbered hasAnchor">
+<h3>Position<a href="purpose-of-tecnical-indicators.html#position" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Where you are can help you know where you can go.</p>
+<p>By comparing current price to a historical reference point, you can know if the current price is at the bottom or top of a price trend. If the current price is near a top of a trend, the most sensible thing will be to go short.</p>
+<p>Multiple indicators such as MACD, PPO, Stochastic, etc. can provide reference points of current price position.</p>
+<p>It is also critical to analyze those indicators in a fractal mode, to know the best time resolution for your trade. One thing is to be at the top of the last hour, and another at the top in the last day.</p>
+<p>To identify the best time resolutions for your specific trading strategy, you probably need measure position at a timeframe in which volatility will be enough to satisfy your desired profit.</p>
+<p>For instance, say, you are after a 1% profit for a given entry, you look at the volatility of your stock and find that 1% change occurs about each week. So for price to reach your target, you probably need to measure Position in the resolution of weeks. You do not want to jump in a long for a 1% profit, if price is sitting at the top of weekly trend. There will not be enough price extension from that point to reach of profit take.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="images/Position.png" alt="Setting up an entry: Position" width="100%" />
 <p class="caption">
-Figure 7.1: Trend
+Figure 7.7: Setting up an entry: Position
 </p>
 </div>
-<ol start="2" style="list-style-type: decimal">
-<li>Momentum: These indicators attend to identify the strength of a trend
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="images/Momentum.png" alt="Momentum" width="100%" />
+</div>
+<div id="direction" class="section level3 unnumbered hasAnchor">
+<h3>Direction<a href="purpose-of-tecnical-indicators.html#direction" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Direction is like the compass for a stock price movement. The idea here is to know if price is moving up or down.</p>
+Multiple indicators can help identify this attribute like the rate of change (ROC), and breakouts from Donchian channels or Bollinger bands
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="images/Direction.png" alt="Setting up an entry: Direction" width="100%" />
 <p class="caption">
-Figure 7.2: Momentum
-</p>
-</div></li>
-<li>Volatility: attend to identify how variable the stock price is.
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
-<img src="images/Volatility.png" alt="Volatility" width="100%" />
-<p class="caption">
-Figure 7.3: Volatility
-</p>
-</div></li>
-<li>Trigger:</li>
-</ol>
-These indicators describe variations over the number of stocks traded (commonly, volume is shown as the bars at the bottom of most stock prices). It is expected that any strong trend should be based on large volume traded. Volume is like the foundation over which price should be built.
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
-<img src="images/Volume.png" alt="Volume" width="100%" />
-<p class="caption">
-Figure 7.4: Volume
+Figure 7.8: Setting up an entry: Direction
 </p>
 </div>
-<p>There are tens of different indicators on each category, and at times some indicators are difficult to categorize in an specific group. The holy grail in stock trading is to find the magic indicator that will tell us when to buy and when to sell at a profit.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
-<img src="images/Ho.png" alt="Holly grail indicators" width="50%" />
+</div>
+<div id="intention" class="section level3 unnumbered hasAnchor">
+<h3>Intention<a href="purpose-of-tecnical-indicators.html#intention" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The idea here is to use technical indicators to provide hints if the next most likely move of the stock will be strong or week.</p>
+<p>Here one can relay on multiple indicators, for which it will be important to know their underlying mathematical equations to know what they are showing and how to interpret their results.</p>
+<p>For instance, indicators of momentum could provide hints if a trends is getting exhausted, or has been slacking off. It is a good recommendation to study your specific active to see what the given stock does when such levels are reached.</p>
+<p>Another set of useful indicators for intention are those related to volume. Like money flow or volume profiles. They can help to identify areas of little or strong interest, and whether price is likely to move or not in a given direction.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-9"></span>
+<img src="images/intention.png" alt="Setting up an entry: intention" width="100%" />
 <p class="caption">
-Figure 7.5: Holly grail indicators
+Figure 7.9: Setting up an entry: intention
 </p>
 </div>
-<p>Most likely those individuals that have gone to become billionaires in trading likely found that magic indicator. Doubtfully, such a prolific indicator will be any public indicator as it will be worth billions if not trillions of dollars.</p>
-<p>It is commonly mentioned that the best strategies combine indicators in different categories. It is also commonly mentioned that it is better to avoid multiple indicators from within the same category. The main reason for this is that it crowds the computer screen, making it difficult to comprehend so much data.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
-<img src="images/Holly.png" alt="Holly grail indicators" width="100%" />
+</div>
+<div id="operation-range" class="section level3 unnumbered hasAnchor">
+<h3>Operation range<a href="purpose-of-tecnical-indicators.html#operation-range" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Do not ask from a stock what it cannot give you.</p>
+<p>This aspect of the best setting for an entry is to check if the potential for price extension is sufficient to accommodate the profit take.</p>
+<p>Check if your desired profit take is within the returns likely to be generated by an stock. Say a given stock has a yearly volatility of 5% and you want to get a 15% profit in your entry; basically, it will be years before you can secure that sort of profit from such a stock. An obvious recommendation is to aim for a profit take that is only a fraction of the stock’s volatility.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
+<img src="images/VolatilityProfit.png" alt="Setting up an entry: VolatilityProfit" width="100%" />
 <p class="caption">
-Figure 7.6: Holly grail indicators
+Figure 7.10: Setting up an entry: VolatilityProfit
 </p>
 </div>
-<p>However, with the help of new software it is possible to also create indicators based on indicators, which can help to combine indicators from the same category to confirm, and at times filter wrong signals. <a href="https://currency.com/awesome-oscillator-vs-macd">Example here</a></p>
 </div>
+<div id="triggers" class="section level3 unnumbered hasAnchor">
+<h3>Triggers<a href="purpose-of-tecnical-indicators.html#triggers" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Technical indicators at times cross critical points that can be used as specific entry points.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-11"></span>
+<img src="images/CrossOver.png" alt="Price cross over bollinger bands as entry trigger" width="100%" />
+<p class="caption">
+Figure 7.11: Price cross over bollinger bands as entry trigger
+</p>
+</div>
+
+</div>
+</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="put-call-ratio.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="purpose-of-tecnical-indicators.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="7-technical-indicators.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="8-momentum.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
